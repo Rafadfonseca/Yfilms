@@ -8,6 +8,12 @@
     font-weight: 400;
     font-style: normal;
 }
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 :root{
     --azul: #25619f;
     --cinza1: #afadad;
@@ -20,7 +26,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 #pagina1 {
     width: 100%;
     height: 100vh;
@@ -32,9 +37,9 @@
 #menu h1 {
     font-family: "Shrikhand", serif;
     color: white;
-    font-size: x-large;
+    font-size: large;
     margin-top: 1vh;
-    margin-left: 0.1vw;
+    margin-left: 1vw;
     float: left;
     margin-right: 80vw;
 }
@@ -49,45 +54,61 @@ ul li a{
     display: block;
     color: #fff;
     text-decoration: none;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     font-family: "Questrial", sans-serif;
 }
 ul li ul.dropdown li{
     display: block;
 }
 ul li ul.dropdown{
-    width: 100%;
+    width: 10vw;
     background: var(--cinza2);
     position: absolute;
     z-index: 999;
     display: none;
 }
-ul li a:hover li:hover{
+ul li a:hover {
     color: white;
+    text-decoration: none;
+}
+ul li a.sec {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+ul li a.sec:hover {
+    color: white;
+    background: var(--cinza3);
+    text-decoration: none;
 }
 ul li:hover ul.dropdown{
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*
-#menu p{
-    font-family: "Questrial", sans-serif;
-    color: white;
-    margin-left: 80vw;
-    margin-right: 1vw;
+ul li i.fa{
+    font-size: 1vw;
 }
-#menu i{
+ul li a img{
+    width: 2.5vw;
+}
+ul li a img#img1{
+    width: 2.5vw;
+}
+#primeirot h2{
     color: white;
-    font-size: smaller;
-    margin-left: 0.5vw;
-}*/
+    font-family: "Questrial", sans-serif;
+    font-size: 1.8vw;
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+#primeirot p {
+    color: white;
+    font-family: "Bree Serif", serif;
+    font-size: 3vw;
+    margin-left: 10vw;
+}
+#caixas p{
+    color: white;
+    font-family: "Questrial", sans-serif;
+    float: left;
+}
