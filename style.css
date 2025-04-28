@@ -56,7 +56,6 @@ ul li a{
     text-decoration: none;
     font-size: 1.4vw;
     font-family: "Questrial", sans-serif;
-    margin-left: 7vw;
 }
 ul li ul.dropdown li{
     display: block;
@@ -101,7 +100,6 @@ ul li a img#img1{
     font-size: 1.8vw;
     margin-top: 20vh;
     margin-left: 10vw;
-    width: ;
 }
 #primeirot p {
     color: white;
@@ -114,3 +112,6 @@ ul li a img#img1{
     font-family: "Questrial", sans-serif;
     float: left;
 }
+/* Main começou*/
+
+/* Main acabou*/
