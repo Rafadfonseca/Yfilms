@@ -37,7 +37,7 @@
 #menu h1 {
     font-family: "Shrikhand", serif;
     color: white;
-    font-size: large;
+    font-size: 1.5vw;
     margin-top: 1vh;
     margin-left: 1vw;
     float: left;
@@ -54,7 +54,7 @@ ul li a{
     display: block;
     color: #fff;
     text-decoration: none;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     font-family: "Questrial", sans-serif;
 }
 ul li ul.dropdown li{
@@ -97,20 +97,37 @@ ul li a img#img1{
 #primeirot h2{
     color: white;
     font-family: "Questrial", sans-serif;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     margin-top: 20vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
+}
+#primeirot{
+    width: 50vw;
 }
 #primeirot p {
+    width: 30vw;
     color: white;
     font-family: "Bree Serif", serif;
-    font-size: 3vw;
-    margin-left: 10vw;
+    font-size: 2.3vw;
+    margin-left: 9vw;
+}
+
+#caixa11 {
+    float: left;
+    margin-left: 9vw;
+}
+.caixa12 {
+    border: 0.1vw solid white;
+    height: 6vh;
+    width: 10vw;
+    float: left;
+    margin-left: 3vw;
 }
 #caixas p{
     color: white;
     font-family: "Questrial", sans-serif;
-    float: left;
+    text-align: center;
+    margin-top: 1.5vh;
 }
 /* Main começou*/
 
