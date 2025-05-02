@@ -129,37 +129,40 @@ ul li a img#img1{
     text-align: center;
     margin-top: 1.5vh;
 }
+
+/*pagina2 começou*/
 #pagina2{
     background-color: var(--azul);
     width: 100%;
-    height: 70vh;
+    height: 100vh;
 }
 #textospag2{
     width: 80vw;
     text-align: center;
     margin-left: 10vw;
+    padding-top: 7vh;
 }
 #pagina2 p{
     font-family: "Questrial", sans-serif;
     color: black;
 }
 #pagina2 #p1{
-    font-size: 2vw;
+    font-size: 2.7vw;
     margin-bottom: 0.7vh;
 }
 
-#pagina2 #p2{
-    font-size: 1.7vw;
+#pagina2 .p2{
+    font-size: 2vw;
     width: 65vw;
     margin-left: 7.5vw;
 }
-#p2 span{
+.p2 span{
     color: white;
 }
 #pagina2 h1{
     font-family: "Shrikhand", serif;
     color: white;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 #linha{
     width: 60vw;
@@ -168,7 +171,30 @@ ul li a img#img1{
     margin-left: 10vw;
     
 }
+/*pagina2 acabou*/
 
+/*pagina4 começou*/
+#pagina4{
+    background-color: var(--cinza1);
+    width: 100%;
+    height: 100vh;
+}
+#titu4{
+    width: 60%;
+    height: 30vh;
+    margin-right: 2vw;
+    float: left;
+}
+#pagina4 h1{
+    font-family: "Shrikhand", serif;
+    color: black;
+    font-size: 6vw;
+    text-align: right;
+}
+#firstimg{
+    width: 35%;
+}
+/*pagina4 acabou*/
 
 /* Main começou*/
 
