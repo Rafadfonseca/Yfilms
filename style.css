@@ -243,7 +243,32 @@ ul li a img#img1{
 /*pagina3 acabou*/
 
 /*pagina4 começou*/
+#pagina4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imgs/fundo4.png); /* Imagem de exemplo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#pagina4 h1{
+    font-family: "Shrikhand", serif;
+    color: white;
+    font-size: 5vw;
+    width: 40vw;
+    text-align: right;
+    margin-left: 55%;
+    padding-top: 25vh;
+}
 
+#pagina4 p{
+    font-family: "Questrial", sans-serif;
+    color: white;
+    font-size: 1.4vw;
+    width: 55vw;
+    text-align: right;
+    margin-left: 40%;
+}
 /*pagina4 acabou*/
 /*pagina5 começou*/
 
