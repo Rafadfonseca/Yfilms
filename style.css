@@ -161,4 +161,22 @@ ul li a img#img1{
     text-align: center;
 }
 
+.textocard{
+    margin-top: 1vw;
+    font-family: "Questrial", sans-serif;
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.flecha{
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    justify-content: center;
+}
+
+
 /* Main acabou*/
