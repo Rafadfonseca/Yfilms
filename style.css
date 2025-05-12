@@ -174,26 +174,7 @@ ul li a img#img1{
 /*pagina2 acabou*/
 
 /*pagina4 começou*/
-#pagina4{
-    background-color: var(--cinza1);
-    width: 100%;
-    height: 100vh;
-}
-#titu4{
-    width: 60%;
-    height: 30vh;
-    margin-right: 2vw;
-    float: left;
-}
-#pagina4 h1{
-    font-family: "Shrikhand", serif;
-    color: black;
-    font-size: 6vw;
-    text-align: right;
-}
-#firstimg{
-    width: 35%;
-}
+
 /*pagina4 acabou*/
 
 /* Main começou*/
