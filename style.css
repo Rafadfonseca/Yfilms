@@ -15,7 +15,7 @@
 }
   
 :root{
-    --azul: #25619f;
+    --azul: #3e5b79;
     --cinza1: #afadad;
     --cinza2: #6a6a6a;
     --cinza3:#36393a;
@@ -37,7 +37,7 @@
 #menu h1 {
     font-family: "Shrikhand", serif;
     color: white;
-    font-size: large;
+    font-size: 1.5vw;
     margin-top: 1vh;
     margin-left: 1vw;
     float: left;
@@ -54,7 +54,7 @@ ul li a{
     display: block;
     color: #fff;
     text-decoration: none;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     font-family: "Questrial", sans-serif;
 }
 ul li ul.dropdown li{
@@ -97,21 +97,86 @@ ul li a img#img1{
 #primeirot h2{
     color: white;
     font-family: "Questrial", sans-serif;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     margin-top: 20vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
+}
+#primeirot{
+    width: 50vw;
 }
 #primeirot p {
+    width: 30vw;
     color: white;
     font-family: "Bree Serif", serif;
-    font-size: 3vw;
-    margin-left: 10vw;
+    font-size: 2.3vw;
+    margin-left: 9vw;
+}
+
+#caixa11 {
+    float: left;
+    margin-left: 9vw;
+}
+.caixa12 {
+    border: 0.1vw solid white;
+    height: 6vh;
+    width: 10vw;
+    float: left;
+    margin-left: 3vw;
 }
 #caixas p{
     color: white;
     font-family: "Questrial", sans-serif;
-    float: left;
+    text-align: center;
+    margin-top: 1.5vh;
 }
+
+/*pagina2 começou*/
+#pagina2{
+    background-color: var(--azul);
+    width: 100%;
+    height: 100vh;
+}
+#textospag2{
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+    padding-top: 7vh;
+}
+#pagina2 p{
+    font-family: "Questrial", sans-serif;
+    color: black;
+}
+#pagina2 #p1{
+    font-size: 2.7vw;
+    margin-bottom: 0.7vh;
+}
+
+#pagina2 .p2{
+    font-size: 2vw;
+    width: 65vw;
+    margin-left: 7.5vw;
+}
+.p2 span{
+    color: white;
+}
+#pagina2 h1{
+    font-family: "Shrikhand", serif;
+    color: white;
+    font-size: 6vw;
+}
+#linha{
+    width: 60vw;
+    height: 0.1vh;
+    background-color: white;
+    margin-left: 10vw;
+    
+}
+/*pagina2 acabou*/
+
+/*pagina4 começou*/
+
+/*pagina4 acabou*/
+
 /* Main começou*/
 #pagina3 {
     width: 100%;
