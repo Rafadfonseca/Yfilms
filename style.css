@@ -244,6 +244,7 @@ ul li a img#img1{
 #cards{
     display: flex;
     justify-content: center;
+    margin-top: 5vw;
 }
 
 
