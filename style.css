@@ -191,7 +191,6 @@ ul li a img#img1{
     width: 25vw;
     height: 25vw;
     background-color: var(--cinza3);
-    margin-left: 5vw;
     float: left;
 }
 
@@ -237,8 +236,14 @@ ul li a img#img1{
 }
 
 .flecha{
-    width: 10vw;
-    height: 10vw;
+    width: 9vw;
+    height: 9vw;
+    margin-left: 30%;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
 }
 
 
