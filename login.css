@@ -1,0 +1,77 @@
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.shrikhand-regular {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+:root{
+    --azul: #3e5b79;
+    --cinza1: #afadad;
+    --cinza2: #6a6a6a;
+    --cinza3:#36393a;
+    --cinza5: #1e1f1f;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#paginalogin{
+    background-image: url(fundologin.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#carddelogin{
+    width: 30vw;
+    height: 32vw;
+    justify-self: center;
+    margin-top: 6vw;
+    background-color: var(--cinza3);
+}
+
+#titulo{
+    width: 30vw;
+    height: 5vw;
+    background-color: var(--cinza1);
+}
+
+#titulo h1{
+    text-align: center;
+    color: white;
+    font-family: "Shrikhand", serif;
+    font-size: 3vw;
+}
+
+#informacoes{
+    width: 30vw;
+    height: 27vw;
+}
+
+.texto{
+    color: white;
+    margin-top: 3vh;
+    margin-left: 1.5vw;
+    font-family: "Questrial", sans-serif;
+}
+
+.linha{
+    width: 26vw;
+    height: 0.5px;
+    background-color: white;
+    justify-self: center;
+}
