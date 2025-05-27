@@ -24,13 +24,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 #paginalogin{
-    background-image: url(fundologin.png);
+    background-color: #36393a;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,6 +54,7 @@
     color: white;
     font-family: "Shrikhand", serif;
     font-size: 3vw;
+    padding-top: 1.5vh;
 }
 
 #informacoes{
@@ -74,4 +74,38 @@
     height: 0.5px;
     background-color: white;
     justify-self: center;
+}
+
+.linhapequena{
+    width: 11vw;
+    height: 0.5px;
+    background-color: white;
+    justify-self: center;
+    float: left;
+}
+
+#ou{
+    height: 1vw;
+    color: white;
+    float: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: "Questrial", sans-serif;
+}
+
+#linhascomou{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.botao{
+    width: 26vw;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    font-family: "Questrial", sans-serif;
+    margin-top: 3.5vh;
+    background-color: var(--cinza1);
+    border-color: var(--cinza1);
+    color: white;
 }
