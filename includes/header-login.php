@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="./css/<?php echo $pagina.'.css?t='.$atualizado;?>">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,29 +14,5 @@
     </style>
     <title>Yfilms</title>
   </head>
-<body>
-    <div id="paginalogin">
-
-    <div id="carddelogin">
-        <div id="titulo">
-            <h1>Faça seu login</h1>
-        </div>
-        <div id="informacoes">
-            <p class="texto">E-MAIL:</p>
-            <form action="post">...</form>
-            <div class="linha"></div>
-            <p class="texto">SENHA:</p>
-            <form action="post">...</form>
-            <div class="linha"></div>
-            <button class="botao">ENTRAR</button>
-            <div id="linhascomou">
-            <div class="linhapequena"></div>
-            <p id="ou">OU</p>
-            <div class="linhapequena"></div>
-            </div>
-            <button class="botao">QUERO ME CADASTRAR</button>
-        </div>
-    </div>
-    </div>
-</body>
-</html>
+  <body>
+   
