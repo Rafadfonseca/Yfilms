@@ -288,6 +288,15 @@ ul li a img#img1{
     margin-left: 10vw;
     padding-top: 7vh;
 }
+#textospag5 p{
+    text-indent: 20px;
+}
+
+#textospag5 .textos5{
+    font-family: "Bree Serif", serif;
+    text-indent: 20px;
+}
+
 #pagina5 img{
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -358,7 +367,7 @@ ul li a img#img1{
 #pagina6 p{
     width: 60vw;
 }
-#pagina6 h2, p{
+#pagina6 .titulocaixa, .textocaixa{
     font-family: "Bree Serif", serif;
     color: white;
 }
