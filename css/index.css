@@ -176,11 +176,8 @@ ul li i.fa{
 }
 /*pagina2 acabou*/
 
-/*pagina4 começou*/
+/*pagina3 começou*/
 
-/*pagina4 acabou*/
-
-/* Main começou*/
 #pagina3 {
     width: 100%;
     height: 100vh;
@@ -251,5 +248,140 @@ ul li i.fa{
     margin-top: 5vw;
 }
 
+/*pagina3 acabou*/
 
-/* Main acabou*/
+/*pagina4 começou*/
+#pagina4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imgs/fundo4.png); /* Imagem de exemplo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#pagina4 h1{
+    font-family: "Shrikhand", serif;
+    color: white;
+    font-size: 5vw;
+    width: 40vw;
+    text-align: right;
+    margin-left: 55%;
+    padding-top: 25vh;
+}
+
+#pagina4 p{
+    font-family: "Questrial", sans-serif;
+    color: white;
+    font-size: 1.4vw;
+    width: 55vw;
+    text-align: right;
+    margin-left: 40%;
+}
+/*pagina4 acabou*/
+/*pagina5 começou*/
+#pagina5{
+    background-color: var(--cinza5);
+    width: 100%;
+    height: 400vh;
+}
+#pagina5 p, ul{
+    text-align: justify;
+}
+#pagina5{
+    color: white;
+}
+#textospag5{
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+    padding-top: 7vh;
+}
+#textospag5 p{
+    text-indent: 20px;
+}
+
+#textospag5 .textos5{
+    font-family: "Bree Serif", serif;
+    text-indent: 20px;
+}
+
+#pagina5 img{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#pagina5 #ver{
+    color: red;
+}
+#pagina5 #ros{
+    color: pink;
+}
+#pagina5 #ama{
+    color: yellow;
+}
+#pagina5 #lar{
+    color: orange;
+}
+#pagina5 #verd{
+    color: green;
+}
+#pagina5 #azu{
+    color: blue;
+}
+#pagina5 #rox{
+    color: rgb(200, 0, 200);
+}
+#pagina5 #mar{
+    color: rgb(119, 4, 4);
+}
+#pagina5 #pre{
+    color: var(--cinza2);
+}
+#pagina5 #pra{
+    color: rgb(173, 158, 158);
+}
+#pagina5 #dou{
+    color: rgb(205, 135, 48);
+}
+
+/*pagina5 acabou*/
+/*pagina6 começou*/
+#pagina6{
+    background-color: var(--cinza5);
+    width: 100%;
+    height: 400vh;
+}
+#pagina6 h1{
+    font-family: "Shrikhand", serif;
+    color: white;
+    font-size: 6vw;
+}
+#pagina6 .caixa{
+    width: 80%;
+    height: 40vh;
+    border-radius: 2vw;
+    border: 2px solid var(--cinza2);
+    margin-left: 10%;
+}
+#pagina6 .poster{
+    width: 8vw;
+    float: left;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+#pagina6 h2{
+    width: 40vw;
+}
+#pagina6 p{
+    width: 60vw;
+}
+#pagina6 .titulocaixa, .textocaixa{
+    font-family: "Bree Serif", serif;
+    color: white;
+}
+#pagina6 .flecha{
+    width: 5vw;
+    height: 8vh;
+}
+
+/*pagina6 acabou*/
