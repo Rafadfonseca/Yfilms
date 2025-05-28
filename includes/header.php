@@ -25,8 +25,6 @@
             <li>
               <a href="#">menu <i class="fa fa-bars"></i></a>
               <ul class="dropdown">
-                <li><a class="sec" href="#"><img id="img1" src="bbra.jpg" alt=""></a></li>
-                <li><a class="sec" href="#"><img src="beua.jpg" alt=""></a></li>
                 <li><a class="sec" href="./login.php">Login</a></li>
                 <li><a class="sec" href="./sua-lista.php">Sua lista</a></li>
                 <li><a class="sec" href="./filmes.php">Filmes</a></li>
