@@ -223,6 +223,7 @@ ul li i.fa{
     color: var(--cinza1);
     font-size: 6vw;
     text-align: center;
+    padding-top: 3vw;
 }
 
 .textocard{

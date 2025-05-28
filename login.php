@@ -12,18 +12,18 @@ include_once './includes/header-login.php';
         </div>
         <div id="informacoes">
             <p class="texto">E-MAIL:</p>
-            <form action="post">...</form>
+            <input type="text">
             <div class="linha"></div>
             <p class="texto">SENHA:</p>
-            <form action="post">...</form>
+            <input type="text">
             <div class="linha"></div>
-            <button class="botao">ENTRAR</button>
+            <button class="botao" id="entrar">ENTRAR</button>
             <div id="linhascomou">
             <div class="linhapequena"></div>
             <p id="ou">OU</p>
             <div class="linhapequena"></div>
             </div>
-            <button class="botao">QUERO ME CADASTRAR</button>
+            <button class="botao" id="querocadastrar">QUERO ME CADASTRAR</button>
         </div>
     </div>
     </div>
