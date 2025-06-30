@@ -10,6 +10,9 @@ include_once './includes/header-login.php';
         <div id="titulo">
             <h1>Cadastre-se</h1>
         </div>
+        <div id="sair">
+            <i class="fa-solid fa-circle-chevron-right"></i>
+        </div>
         <div id="informacoes">
             <p class="texto">E-MAIL:</p>
             <input type="text">

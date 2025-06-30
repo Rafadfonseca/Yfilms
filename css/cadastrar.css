@@ -37,6 +37,14 @@
     background-repeat: no-repeat;
 }
 
+#sair i{
+    position: absolute;
+    color: black;
+    top: 0vw;
+    width: 50vw;
+    height: 50vw;
+}
+
 #carddelogin{
     width: 30vw;
     height: 61.5vw;
