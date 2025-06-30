@@ -58,7 +58,7 @@ include_once './includes/header.php';
         <p class="textocard">Clique aqui para ver alguma recomendação de filmes que tem uma fotografia chamativa</p>
         <div class="flechinha">
           <a target="_blank" href="...">
-            <img class="flecha" src="imgs/flecha.png" alt="Ir para" title="Ir para">
+            <img class="flecha" src="imgs/flechas.png" alt="Ir para" title="Ir para">
           </a>
         </div>
       </div>
@@ -68,7 +68,7 @@ include_once './includes/header.php';
         <p class="textocard">Clique aqui para adicionar um filme novo na sua lista </p>
         <div class="flechinha">
           <a target="_blank" href="...">
-            <img class="flecha" src="imgs/flecha.png" alt="Ir para" title="Ir para">
+            <img class="flecha" src="imgs/flechas.png" alt="Ir para" title="Ir para">
           </a>
         </div>
       </div>
@@ -79,7 +79,7 @@ include_once './includes/header.php';
         <p class="textocard">Clique aqui para ler um pouco sobre colorimetria e entender melhor sobre teoria de paletas de cores.</p>
         <div class="flechinha">
           <a target="_blank" href="...">
-            <img class="flecha" src="imgs/flecha.png" alt="Ir para" title="Ir para">
+            <img class="flecha" src="imgs/flechas.png" alt="Ir para" title="Ir para">
           </a>
         </div>
       </div>
