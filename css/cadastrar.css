@@ -1,0 +1,130 @@
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.shrikhand-regular {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+:root{
+    --azul: #3e5b79;
+    --cinza1: #afadad;
+    --cinza2: #6a6a6a;
+    --cinza3:#36393a;
+    --cinza5: #1e1f1f;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#paginalogin{
+    background-color: url(../imgs/fundologin.png);
+    width: 100%;
+    height: 165vh;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#carddelogin{
+    width: 30vw;
+    height: 61.5vw;
+    justify-self: center;
+    margin-top: 6vw;
+    background-color: var(--cinza3);
+}
+
+#titulo{
+    width: 30vw;
+    height: 5vw;
+    background-color: var(--cinza1);
+}
+
+#titulo h1{
+    text-align: center;
+    color: white;
+    font-family: "Shrikhand", serif;
+    font-size: 3vw;
+    padding-top: 1.5vh;
+}
+
+#informacoes{
+    width: 30vw;
+    height: 27vw;
+}
+
+.texto{
+    color: white;
+    margin-top: 3vh;
+    margin-left: 1.5vw;
+    font-family: "Questrial", sans-serif;
+}
+
+.linha{
+    width: 26vw;
+    height: 0.5px;
+    background-color: white;
+    justify-self: center;
+}
+
+.linhapequena{
+    width: 11vw;
+    height: 0.5px;
+    background-color: white;
+    justify-self: center;
+    float: left;
+    margin-top: 2vh;
+}
+
+#ou{
+    height: 1vw;
+    color: white;
+    float: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: "Questrial", sans-serif;
+}
+
+#linhascomou{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.botao{
+    width: 26vw;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    font-family: "Questrial", sans-serif;
+    background-color: var(--cinza1);
+    border-color: var(--cinza1);
+    color: white;
+    margin-left: 2vw;
+}
+
+#entrar{
+    margin-top: 4vh;
+}
+
+#querocadastrar{
+    margin-top: 1vh;
+}
+
+#informacoes input{
+    margin-left: 2vw;
+    width: 26vw;
+    background-color: var(--cinza3);
+    border-color: transparent;
+    color: white;
+}
