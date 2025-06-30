@@ -1,0 +1,80 @@
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.shrikhand-regular {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+:root{
+    --azul: #3e5b79;
+    --cinza1: #afadad;
+    --cinza2: #6a6a6a;
+    --cinza3:#36393a;
+    --cinza5: #1e1f1f;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pagina6{
+    background-color: var(--cinza3);
+    width: 100%;
+    height: 400vh;
+}
+#pagina6 h1{
+    font-family: "Shrikhand", serif;
+    color: white;
+    font-size: 6vw;
+    width: 30vw;
+    margin-left: 10vw;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+}
+#pagina6 .caixa{
+    width: 70%;
+    height: 33vh;
+    border-radius: 2vw;
+    border: 2px solid var(--cinza2);
+    margin-left: 10%;
+}
+#pagina6 .poster{
+    width: 8vw;
+    float: left;
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+#pagina6 h2{
+    width: 40vw;
+}
+#pagina6 p{
+    width: 60vw;
+}
+#pagina6 .titulocaixa, .textocaixa{
+    font-family: "Bree Serif", serif;
+    color: white;
+    margin-left: 13vw;
+}
+#pagina6 .titulocaixa {
+    padding-top: 5vh;
+}
+#pagina6 .textocaixa {
+    text-indent: 20px;
+    width: 45vw;
+}
+#pagina6 .flecha{
+    width: 4.5vw;
+    float: right;
+    margin-top: -13vh;
+    margin-right: 5vw;
+}

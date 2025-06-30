@@ -3,22 +3,19 @@ include_once './includes/conexao.php';
 $pagina = 'sobre-cores';
 include_once './includes/header.php';
 ?>
-<body>
+<main>
       <div id="pagina4">
-
-      <div id="textospag4">
-        <h1>Oque é colorimetria</h1>
-        <p>As cores não são só estéticas elas têm um estudo por trás e normalmente não são usadas à toa, mas antes de vermos como e 
-          onde são usadas precisamos entender mais sobre elas.</p>
-        <p>As cores correspondem aos fenômenos físicos gerados pela luz. Elas são impressões visuais que os olhos absorvem quando há 
-          luz presente. Branco é a união das sete cores do espectro (amarelo, vermelho, azul, verde, laranja, azul escuro e violeta), 
-          preto é a ausência de cores ou luz, azul amarelo e vermelho são cores primárias, ou seja, a mistura de nenhuma cor pode 
-          criar elas e a misturas delas criam as outras cores e tons, laranja verde e roxo, são as cores secundárias</p>
-      </div>
-
+        <div id="textospag4">
+          <h1>Oque é colorimetria</h1>
+          <p>As cores não são só estéticas elas têm um estudo por trás e normalmente não são usadas à toa, mas antes de vermos como e 
+            onde são usadas precisamos entender mais sobre elas.</p>
+          <p>As cores correspondem aos fenômenos físicos gerados pela luz. Elas são impressões visuais que os olhos absorvem quando há 
+            luz presente. Branco é a união das sete cores do espectro (amarelo, vermelho, azul, verde, laranja, azul escuro e violeta), 
+            preto é a ausência de cores ou luz, azul amarelo e vermelho são cores primárias, ou seja, a mistura de nenhuma cor pode 
+            criar elas e a misturas delas criam as outras cores e tons, laranja verde e roxo, são as cores secundárias</p>
+        </div>
     </div>
-    </header>
-    <main>
+    
 
     <div id="pagina5">
       <div id="textospag5">

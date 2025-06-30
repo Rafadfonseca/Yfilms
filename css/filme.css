@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 500px;
+}

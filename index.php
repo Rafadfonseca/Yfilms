@@ -13,13 +13,13 @@ include_once './includes/header.php';
 
         <div id="caixas">
 
-          <a href=""> 
+          <a href="./filmes.php"> 
             <div id="caixa11" class="caixa12">
               <p class="pdiv">LISTA DE FILMES</p>
             </div>
           </a>
 
-          <a href="">
+          <a href="#pagina2">
             <div class="caixa12">
               <p class="pdiv">SOBRE NÓS</p>
             </div>
