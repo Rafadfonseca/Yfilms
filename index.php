@@ -8,14 +8,14 @@ include_once './includes/header.php';
 
         <div id="primeirot">
           <h2>BEM-VINDO AO YF</h2>
-          <p id="pp">Um site onde você pode criar uma lista dos seus filmes favoritos, destacando aqueles com uma fotografia marcante.</p>
+          <p id="pp">Um site onde você pode ler e comentar sobre seus filmes favoritos, destacando aqueles com uma fotografia marcante.</p>
         </div>
 
         <div id="caixas">
 
           <a href=""> 
             <div id="caixa11" class="caixa12">
-              <p class="pdiv">LISTA DE FILMES</p>
+              <p class="pdiv">FILMES</p>
             </div>
           </a>
 
@@ -39,7 +39,7 @@ include_once './includes/header.php';
           <h1>Nós somos Your films</h1>
           
         <div id="linha"></div>
-        <p class="p2">No <span>Your Films</span> você pode colocar filmes com a sua paleta de cores e dar sua opinião sobre a colorimetria dos filmes e sobre o próprio filme. Você pode também escrever sobre suas cenas favoritas e atores que você gostou da atuação.
+        <p class="p2">No <span>Your Films</span> você pode ler sobre filmes e a sua paleta de cores e dar sua opinião sobre a colorimetria dos filmes e sobre o próprio filme. Você pode também escrever sobre suas cenas favoritas e atores que você gostou da atuação.
             Aqui você também pode ver algumas analises sobre colorimetria  já feitas e algumas recomendações sobre filmes que são indicados pela escolha inteligente de paleta de cores.</p>
         <p class="p2"> Bem-Vindo ao <span>Your Films</span> !</p>
       </div>
@@ -56,16 +56,6 @@ include_once './includes/header.php';
       <div id="cardrecomendados">
         <h3>VEJA FILMES RECOMENDADOS</h3>
         <p class="textocard">Clique aqui para ver alguma recomendação de filmes que tem uma fotografia chamativa</p>
-        <div class="flechinha">
-          <a target="_blank" href="...">
-            <img class="flecha" src="imgs/flechas.png" alt="Ir para" title="Ir para">
-          </a>
-        </div>
-      </div>
-
-      <div id="cardlista">
-        <h3>ADICIONE UM FILME A LISTA</h3>
-        <p class="textocard">Clique aqui para adicionar um filme novo na sua lista </p>
         <div class="flechinha">
           <a target="_blank" href="...">
             <img class="flecha" src="imgs/flechas.png" alt="Ir para" title="Ir para">

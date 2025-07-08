@@ -194,20 +194,12 @@ ul li i.fa{
     float: left;
 }
 
-#cardlista {
-    width: 25vw;
-    height: 25vw;
-    background-color: var(--cinza3);
-    float: left;
-    margin-left: 5vw;
-}
-
 #cardcolorimetria{
     width: 25vw;
     height: 25vw;
     background-color: var(--cinza3);
     float: left;
-    margin-left: 5vw;
+    margin-left: 9vw;
 }
 
 #fazer h3{
@@ -240,7 +232,6 @@ ul li i.fa{
     width: 8vw;
     height: 8vw;
     margin-left: 30%;
-    
 }
 
 #cards{
