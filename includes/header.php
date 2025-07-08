@@ -26,7 +26,6 @@
               <a href="#">menu <i class="fa fa-bars"></i></a>
               <ul class="dropdown">
                 <li><a class="sec" href="./login.php">Login</a></li>
-                <li><a class="sec" href="./sua-lista.php">Sua lista</a></li>
                 <li><a class="sec" href="./filmes.php">Filmes</a></li>
                 <li><a class="sec" href="./sobre-cores.php">Sobre cores</a></li>
               </ul>
