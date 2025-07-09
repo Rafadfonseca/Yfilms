@@ -3,6 +3,7 @@ include_once './includes/conexao.php';
 $pagina = 'login';
 include_once './includes/header-login.php';
 ?>
+
 <body>
     <div id="paginalogin">
 
@@ -10,6 +11,7 @@ include_once './includes/header-login.php';
         <form action="./processa-login.php" method="post">
             <div id="titulo">
                 <h1>Faça seu login</h1>
+                <a class="bt-sair" href="./index.php">x</a>
             </div>
             <div id="informacoes">
                 <p class="texto">E-MAIL:</p>
