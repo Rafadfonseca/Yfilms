@@ -2,18 +2,32 @@
 include_once './includes/conexao.php';
 $pagina = 'cadastrar';
 include_once './includes/header-login.php';
+
+$usuario = array(
+  'usuarioID' => '',
+  'email' => '',
+  'cpf' => '',
+  'nomecompleto' => '',
+  'datanascimento' => '',
+  'nomeusuario' => '',
+  'senha' => ''
+);
+
+if (!empty($_GET['id'])){
+  $result = mysqli_query($conn, "SELECT * FROM usuarios WHERE usuarioID = {$_GET['id']}");
+  $usuario = mysqli_fetch_assoc($result) ?: $usuario;
+}
 ?>
 <body>
     <div id="paginalogin">
 
     <div id="carddelogin">
-        <form action="./processa-login.php" method="post">
+        <form action="./processa-cadastro.php" method="post">
         <div id="titulo">
             <h1>Cadastre-se</h1>
+            <a class="bt-sair" href="./index.php" >x</a>
         </div>
-        <div id="sair">
-            <i class="fa-solid fa-circle-chevron-right"></i>
-        </div>
+        
         <div id="informacoes">
             <p class="texto">E-MAIL:</p>
             <input type="text" class="preencher">

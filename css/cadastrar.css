@@ -64,7 +64,9 @@
     color: white;
     font-family: "Shrikhand", serif;
     font-size: 3vw;
-    padding-top: 1.5vh;
+    padding-top: 1.7vh;
+    width: 90%;
+    float: left;
 }
 
 #informacoes{
@@ -136,4 +138,11 @@
     background-color: var(--cinza3);
     border-color: transparent;
     color: white;
+}
+.bt-sair{
+    width: 10%;
+    color: #FFF;
+    float: left;
+    padding: 2%;
+    font-size: 25px;
 }
