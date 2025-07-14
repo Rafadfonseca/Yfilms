@@ -121,9 +121,9 @@
                     otimismo. Há também cenas com a cor azul, que representam frieza e solidão, como ao lado de um abajur azul. O filme 
                     possui uma atmosfera quente, iluminada e quase sem cenas de escuridão, reforçando uma sensação de fábula, sonho e 
                     paixão através de sua paleta de cores vibrantes.  </p>
-                  <img class="primeiraft" src="imgs/img/yourfilms em pt (2).png" alt="">
-                  <img src="imgs/img/yourfilms em pt (3).png" alt="">
-                  <img src="imgs/img/Captura de tela 2025-07-07 113450.png" alt="">
+                  <img class="primeiraft" src="imgs/img/apfoto1.png" alt="">
+                  <img src="imgs/img/apfoto2.png" alt="">
+                  <img src="imgs/img/apfoto3.png" alt="">
 
                   <div class="comentario">
                       <h2>Você percebeu mais alguma coisa no filme?</h2>
