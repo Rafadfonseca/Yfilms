@@ -99,12 +99,12 @@
 
           <div class="accordion-content">
               <div class="header">
-                  <img class="capas" src="imgs/img/lllcapa.png" alt="">
+                  <img class="capas" src="imgs/img/apcapa.jpg" alt="">
                   <div class="textheader">
-                      <span class="title">La La Land</span>
-                      <p class="sinop">O pianista Sebastian conhece a atriz Mia, e os dois se apaixonam perdidamente. Em busca de 
-                          oportunidades para suas carreiras na competitiva Los Angeles, os jovens tentam fazer o relacionamento amoroso 
-                          dar certo, enquanto perseguem fama e sucesso.</p>
+                      <span class="title">Amélie Poulain</span>
+                      <p class="sinop">Amélie é uma jovem do interior que se muda para Paris e logo começa a trabalhar em um café. Num 
+                        belo dia, ela encontra uma caixinha dentro de seu apartamento e decide procurar o dono. A partir daí, sua 
+                        perspectiva de vida muda radicalmente.</p>
                   </div>
 
                   <div class="flecha">
@@ -112,18 +112,15 @@
                   </div>
               </div>
               <div class="descricao">
-                  <p class="description1"> <span class="firstp">O </span> filme "Clube da Luta" de 1999 acompanha a história de um homem monótono, sem relacionamentos 
-                      ou amizades, cujo cotidiano muda após conhecer um homem em um avião. Eles criam um clube de luta, ele se envolve 
-                      com uma mulher, perde o emprego, passa a morar com o amigo e adquire novos vínculos. A narrativa destaca a mudança 
-                      na paleta de cores do filme que reflete o estado emocional do protagonista: inicialmente tons azuis e verdes que 
-                      transmitem calma, estabilidade e tristeza, representam sua rotina monótona. A partir do encontro com o outro homem, 
-                      aparecem cores vermelhas, simbolizando desejo, energia, perigo e violência, que se intensificam conforme ele se 
-                      envolve mais com esse personagem</p>
-                  <p class="description"><span class="firstp">Com </span> o tempo, a paleta evolui para tons quentes como laranja e amarelo, indicando sua 
-                      transformação emocional e perda de racionalidade, especialmente após uma cena decisiva em que ele escolhe uma porta 
-                      com luz amarelada, simbolizando sua entrada em um estado impulsivo. Ao final, uma cena marcada pelo retorno ao azul 
-                      traz à tona sentimentos de tristeza e racionalidade, concluindo a narrativa sobre as mudanças emocionais do 
-                      protagonista e a influência das cores para compreender sua trajetória.</p>
+                  <p class="description1"> <span class="firstp">Durante </span> o filme, as cores complementares vermelho e verde 
+                    predominam, sendo observadas no cenário, roupas dos personagens, móveis e na estação de trem, criando contrastes 
+                    vibrantes que trazem impacto visual. O vermelho, associado à personagem Amélie, simboliza amor, paixão, força e 
+                    determinação, enquanto o verde representa esperança, paz, calma e crescimento, refletido na cena em que Amélie 
+                    veste verde ao receber Nino.</p>
+                  <p class="description"><span class="firstp">O </span> amarelo, presente na iluminação, transmite energia, alegria e 
+                    otimismo. Há também cenas com a cor azul, que representam frieza e solidão, como ao lado de um abajur azul. O filme 
+                    possui uma atmosfera quente, iluminada e quase sem cenas de escuridão, reforçando uma sensação de fábula, sonho e 
+                    paixão através de sua paleta de cores vibrantes.  </p>
                   <img class="primeiraft" src="imgs/img/yourfilms em pt (2).png" alt="">
                   <img src="imgs/img/yourfilms em pt (3).png" alt="">
                   <img src="imgs/img/Captura de tela 2025-07-07 113450.png" alt="">
@@ -152,21 +149,19 @@
                   </div>
               </div>
               <div class="descricao">
-                  <p class="description1"> <span class="firstp">O </span> filme "Clube da Luta" de 1999 acompanha a história de um homem monótono, sem relacionamentos 
-                      ou amizades, cujo cotidiano muda após conhecer um homem em um avião. Eles criam um clube de luta, ele se envolve 
-                      com uma mulher, perde o emprego, passa a morar com o amigo e adquire novos vínculos. A narrativa destaca a mudança 
-                      na paleta de cores do filme que reflete o estado emocional do protagonista: inicialmente tons azuis e verdes que 
-                      transmitem calma, estabilidade e tristeza, representam sua rotina monótona. A partir do encontro com o outro homem, 
-                      aparecem cores vermelhas, simbolizando desejo, energia, perigo e violência, que se intensificam conforme ele se 
-                      envolve mais com esse personagem</p>
-                  <p class="description"><span class="firstp">Com </span> o tempo, a paleta evolui para tons quentes como laranja e amarelo, indicando sua 
-                      transformação emocional e perda de racionalidade, especialmente após uma cena decisiva em que ele escolhe uma porta 
-                      com luz amarelada, simbolizando sua entrada em um estado impulsivo. Ao final, uma cena marcada pelo retorno ao azul 
-                      traz à tona sentimentos de tristeza e racionalidade, concluindo a narrativa sobre as mudanças emocionais do 
-                      protagonista e a influência das cores para compreender sua trajetória.</p>
-                  <img class="primeiraft" src="imgs/img/clfoto1.png" alt="">
-                  <img src="imgs/img/clfoto2.png" alt="">
-                  <img src="imgs/img/clfoto3.png" alt="">
+                  <p class="description1"> <span class="firstp">No </span> filme Whiplash, as cores desempenham um papel simbólico na 
+                    narrativa, especialmente o preto, que representa o poder e a autoridade do Conservatório Shaffer, criando uma 
+                    atmosfera de opressão ao redor de Neiman, cuja prática ocorre em ambientes sombrios e escuros. Os figurinos também 
+                    usam o preto para refletir o avanço de Neiman na hierarquia, além de contrastar com o branco, que inicialmente 
+                    simboliza sua vulnerabilidade.  </p>
+                  <p class="description"><span class="firstp">O </span> vermelho aparece em momentos de conflito mais intenso, como as 
+                    mãos sangrando de Neiman durante as sessões de bateria difíceis, destacando suas batalhas pessoais e obstáculos 
+                    emocionais. A estratégia de cores foi cuidadosamente planejada pela equipe de produção para estabelecer emoções e 
+                    relações de poder, utilizando a paleta de cores em cenas, figurinos e cenários para construir o clima e refletir a 
+                    perspectiva de Neiman, mantendo ao mesmo tempo um aspecto realista ao longo do filme. </p>
+                  <img class="primeiraft" src="imgs/img/wfoto1.png" alt="">
+                  <img src="imgs/img/wfoto2.png" alt="">
+                  <img src="imgs/img/wfoto3.png" alt="">
 
                   <div class="comentario">
                       <h2>Você percebeu mais alguma coisa no filme?</h2>
@@ -179,11 +174,12 @@
 
           <div class="accordion-content">
               <div class="header">
-                  <img class="capas" src="imgs/img/pcapa.png" alt="">
+                  <img class="capas" src="imgs/img/hcapa.jpg" alt="">
                   <div class="textheader">
-                      <span class="title">Pearl</span>
-                      <p class="sinop">Presa em uma fazenda isolada, Pearl deve cuidar de seu pai doente sob a vigilância de sua mãe. 
-                        Desejando a vida glamouroso que ela viu nos filmes, as tentações e repressões de Pearl colidem.</p>
+                      <span class="title">Her</span>
+                      <p class="sinop">O solitário escritor Theodore desenvolve uma relação de amor especial com o novo sistema 
+                        operacional do seu computador. Surpreendentemente, ele acaba se apaixonando pela voz deste programa, uma 
+                        entidade intuitiva e sensível chamada Samantha.</p>
                   </div>
 
                   <div class="flecha">
@@ -191,21 +187,22 @@
                   </div>
               </div>
               <div class="descricao">
-                  <p class="description1"> <span class="firstp">O </span> filme "Clube da Luta" de 1999 acompanha a história de um homem monótono, sem relacionamentos 
-                      ou amizades, cujo cotidiano muda após conhecer um homem em um avião. Eles criam um clube de luta, ele se envolve 
-                      com uma mulher, perde o emprego, passa a morar com o amigo e adquire novos vínculos. A narrativa destaca a mudança 
-                      na paleta de cores do filme que reflete o estado emocional do protagonista: inicialmente tons azuis e verdes que 
-                      transmitem calma, estabilidade e tristeza, representam sua rotina monótona. A partir do encontro com o outro homem, 
-                      aparecem cores vermelhas, simbolizando desejo, energia, perigo e violência, que se intensificam conforme ele se 
-                      envolve mais com esse personagem</p>
-                  <p class="description"><span class="firstp">Com </span> o tempo, a paleta evolui para tons quentes como laranja e amarelo, indicando sua 
-                      transformação emocional e perda de racionalidade, especialmente após uma cena decisiva em que ele escolhe uma porta 
-                      com luz amarelada, simbolizando sua entrada em um estado impulsivo. Ao final, uma cena marcada pelo retorno ao azul 
-                      traz à tona sentimentos de tristeza e racionalidade, concluindo a narrativa sobre as mudanças emocionais do 
-                      protagonista e a influência das cores para compreender sua trajetória.</p>
-                  <img class="primeiraft" src="imgs/img/clfoto1.png" alt="">
-                  <img src="imgs/img/clfoto2.png" alt="">
-                  <img src="imgs/img/clfoto3.png" alt="">
+                  <p class="description1"> <span class="firstp">No </span> filme "Her", as diferentes tonalidades de vermelho 
+                    representam emoções como isolamento, solidão e o desejo de amor, além de simbolizar a relação de Theodore com 
+                    Samantha, uma nova forma de cuidado afetivo. O vermelho está presente em diversos ambientes ao seu redor, com 
+                    variações de tonalidade que reforçam o sentimento de conexão ou identificação com outras pessoas que vivem 
+                    relações semelhantes. A paleta de cores é equilibrada scene a scene, alternando entre cenas com mais ou menos 
+                    vermelho para evitar exageros.</p>
+                  <p class="description"><span class="firstp">Além </span> dos tons quentes que predominam, o filme também 
+                    incorpora cores frias, como azul e verde, que contrastam e representam o isolamento e a frieza de ambientes 
+                    como o escritório e o apartamento de Theodore. Essa combinação cria um contraste visual que reflete seu conflito 
+                    interno entre o desejo por conexão e o mundo distante e tecnológico em que vive, adicionando profundidade 
+                    emocional à narrativa. O diretor Spike Jonze utiliza uma cuidadosa combinação de cores para não só criar uma 
+                    estética visual envolvente, mas também para sustentar a história, usando as tonalidades como uma ferramenta que 
+                    espelha as jornadas emocionais dos personagens, conferindo maior impacto e significado à trama. </p>
+                  <img class="primeiraft" src="imgs/img/hfoto1.png" alt="">
+                  <img src="imgs/img/hfoto2.png" alt="">
+                  <img src="imgs/img/hfoto3.png" alt="">
 
                   <div class="comentario">
                       <h2>Você percebeu mais alguma coisa no filme?</h2>
