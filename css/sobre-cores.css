@@ -43,8 +43,6 @@ body,header,#textospag4{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-
 }
 
 #menu h1 {
@@ -107,6 +105,8 @@ ul li a img{
 ul li a img#img1{
     width: 2.5vw;
 }
+
+
 
 #pagina4 h1{
     font-family: "Shrikhand", serif;
