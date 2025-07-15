@@ -13,7 +13,7 @@ include_once './includes/header.php';
             luz presente. Branco é a união das sete cores do espectro (amarelo, vermelho, azul, verde, laranja, azul escuro e violeta), 
             preto é a ausência de cores ou luz, azul amarelo e vermelho são cores primárias, ou seja, a mistura de nenhuma cor pode 
             criar elas e a misturas delas criam as outras cores e tons, laranja verde e roxo, são as cores secundárias <hr><hr><hr><hr><hr><hr><hr><hr></p>
-        </div>
+          </div>
     </div>
     
 
