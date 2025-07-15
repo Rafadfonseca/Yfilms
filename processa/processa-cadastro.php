@@ -1,21 +1,20 @@
 <?php
-include_once '../include/cadastrar.php';
-include_once '../include/conexao.php'
+// include de conexao 
+include_once '../includes/conexao.php';
 
+// captura os dados
 $acao = $_REQUEST['acao'];
-$id = $_REQUEST['id'];
 
-switch ($acao) {
-    case 'cadastrar':
-        $email = $_POST['email'];
-        $cpf = $_POST['cpf'];
-        $nomecompleto = $_POST['nomecompleto'];
-        $datanascimento = $_POST['datanascimento'];
-        $nomeusuario = $_POST['nomeusuario'];
-        $senha = $_POST['senha'];
-        if (!empty($id)){
-            $sql = "INSERT INTO usuarios SET email = '$email', cpf = $cpf, nomecompleto = '$nomecompleto', 
-            datanascimento = '$datanascimento', nomeusuario = '$nomeusuario', senha = '$senha'  WHERE usuarioID = $id";
-        }
-        break;}
+$email = $_POST['email'];
+$cpf = $_POST['cpf'];
+$nomecompleto = $_POST['nomecompleto'];
+$datanascimento = $_POST['datanascimento'];
+$nomeusuario = $_POST['nomeusuario'];
+$senha = $_POST['senha'];
+
+// INSERT INTO tabela (CAMPOS, CAMPOS) VALUES(VALORES,VALORES)
+$sql = "INSERT INTO usuarios (email, cpf, nomecompleto, datadenascimento, nomedeusuario, senha)
+VALUES('$email', $cpf, '$nomecompleto', '$datanascimento','$nomeusuario', '$senha')";
+$resultado = $conn->query($sql);
+header("location: ../login.php");
 ?>

@@ -22,7 +22,7 @@ if (!empty($_GET['id'])){
     <div id="paginalogin">
 
     <div id="carddelogin">
-        <form action="./processa-cadastro.php" method="post">
+        <form action="./processa/processa-cadastro.php" method="post">
       <input type="hidden" name="acao" value="salvar">
       <input type="hidden" name="id" value="<?php echo $usuario['usuarioID']; ?>">
         <div id="titulo">
@@ -47,7 +47,7 @@ if (!empty($_GET['id'])){
             <input type="text" class="preencher" name="nomeusuario" value="<?php echo $usuario['nomeusuario']; ?>" required>
             <div class="linha"></div>
             <p class="texto">SENHA:</p>
-            <input type="text" class="preencher" name="senha" value="<?php echo $usuario['senha']; ?>" required>
+            <input type="password" class="preencher" name="senha" value="<?php echo $usuario['senha']; ?>" required>
             <div class="linha"></div>
                 <input type="submit" class="botao" id="entrar" value="CADASTRAR"></input>
                 <div id="linhascomou">
