@@ -58,28 +58,33 @@
     padding-top: 20vh;
     font-size: 2vw;
     margin-left: 1.3vw;
+    margin-left: 10vw;
 }
 #pagina5 #subtitu5{
     font-family: "Questrial", sans-serif;
     font-size: 1.5vw;
     width: 40vw;
+    margin-left: 10vw;
 }
 #pagina5 #primeiraft{
-    margin-left: 15vw;
+    margin-left: 20vw;
 }
 #pagina5 #pp{
     font-family: "Bree Serif", serif;
     font-size: 1.5vw;
     justify-content: center;
     text-align: center;
+    margin-left: 10vw;
 }
 #pagina5 .textoscenter5{
     font-family: "Questrial", sans-serif;
     font-size: 1.3vw;
     padding-top: 0.5vh;
+    margin-left: 10vw;
 }
 #pagina5 #segundaft{
-    margin-left: 15vw;
+    margin-right: 25vw;
+    margin-left: 5vw;
 }
 
 
@@ -99,7 +104,6 @@
 }
 #textospag5{
     width: 80vw;
-    margin-left: 10vw;
     padding-top: 7vh;
 }
 #textospag5 p{
