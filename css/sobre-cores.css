@@ -1,0 +1,199 @@
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.shrikhand-regular {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+:root{
+    --azul: #3e5b79;
+    --cinza1: #afadad;
+    --cinza2: #6a6a6a;
+    --cinza3:#36393a;
+    --cinza5: #1e1f1f;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,header,#textospag4{
+        background-color: #1e1f1f;
+}
+
+/*pagina4 começou*/
+#pagina4 {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 2vw;
+}
+
+#textospag4{
+    background-image: url(../imgs/fundo4.png)!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menu h1 {
+    font-family: "Shrikhand", serif;
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    float: left;
+    margin-right: 80vw;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: "Questrial", sans-serif;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 10vw;
+    background: var(--cinza2);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+ul li a.sec {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+ul li a.sec:hover {
+    color: white;
+    background: var(--cinza3);
+    text-decoration: none;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul li i.fa{
+    font-size: 1vw;
+}
+ul li a img{
+    width: 2.5vw;
+}
+ul li a img#img1{
+    width: 2.5vw;
+}
+
+
+
+#pagina4 h1{
+    font-family: "Shrikhand", serif;
+    color: white;
+    font-size: 6vw;
+    width: 40vw;
+    text-align: right;
+    margin-left: 55%;
+    padding-top: 20vh;
+    line-height: 15vh;
+}
+
+#pagina4 p{
+    font-family: "Questrial", sans-serif;
+    color: white;
+    font-size: 1.3vw;
+    width: 50vw;
+    text-align: right;
+    margin-left: 45%;
+}
+/*pagina4 acabou*/
+/*pagina5 começou*/
+#pagina5{
+    background-color: var(--cinza5);
+    width: 100%;
+    position: absolute;
+    top: 100vh;
+    height: 400vh;
+}
+#pagina5 p, ul{
+    text-align: justify;
+}
+#pagina5{
+    color: white;
+}
+#textospag5{
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+    padding-top: 7vh;
+}
+#textospag5 p{
+    text-indent: 20px;
+}
+
+#textospag5 .textos5{
+    font-family: "Questrial", sans-serif;
+    text-indent: 20px;
+}
+
+#pagina5 img{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#pagina5 #ver{
+    color: red;
+}
+#pagina5 #ros{
+    color: pink;
+}
+#pagina5 #ama{
+    color: yellow;
+}
+#pagina5 #lar{
+    color: orange;
+}
+#pagina5 #verd{
+    color: green;
+}
+#pagina5 #azu{
+    color: blue;
+}
+#pagina5 #rox{
+    color: rgb(200, 0, 200);
+}
+#pagina5 #mar{
+    color: rgb(119, 4, 4);
+}
+#pagina5 #pre{
+    color: var(--cinza2);
+}
+#pagina5 #pra{
+    color: rgb(173, 158, 158);
+}
+#pagina5 #dou{
+    color: rgb(205, 135, 48);
+}
+
+/*pagina5 acabou*/

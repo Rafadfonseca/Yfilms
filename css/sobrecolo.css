@@ -1,0 +1,151 @@
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.shrikhand-regular {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+:root{
+    --azul: #3e5b79;
+    --cinza1: #afadad;
+    --cinza2: #6a6a6a;
+    --cinza3:#36393a;
+    --cinza5: #1e1f1f;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#pagina4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/fundo4.png); /* Imagem de exemplo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#pagina4 h1{
+    font-family: "Shrikhand", serif;
+    color: white;
+    font-size: 6vw;
+    width: 40vw;
+    text-align: center;
+    margin-left: 30%;
+    padding-top: 30vh;
+    line-height: 15vh;
+}
+
+#pagina5{
+    background-color: var(--cinza5);
+    width: 100%;
+    position: absolute;
+    top: 100vh;
+    height: 400vh;
+}
+#pagina5 h2{
+    font-family: "Bree Serif", serif;
+    color: white;
+    padding-top: 20vh;
+    font-size: 2vw;
+    margin-left: 1.3vw;
+}
+#pagina5 #subtitu5{
+    font-family: "Questrial", sans-serif;
+    font-size: 1.5vw;
+    width: 40vw;
+}
+#pagina5 #primeiraft{
+    margin-left: 15vw;
+}
+#pagina5 #pp{
+    font-family: "Bree Serif", serif;
+    font-size: 1.5vw;
+    justify-content: center;
+    text-align: center;
+}
+#pagina5 .textoscenter5{
+    font-family: "Questrial", sans-serif;
+    font-size: 1.3vw;
+    padding-top: 0.5vh;
+}
+#pagina5 #segundaft{
+    margin-left: 15vw;
+}
+
+
+
+
+
+
+
+
+
+
+#pagina5 p, ul{
+    text-align: justify;
+}
+#pagina5{
+    color: white;
+}
+#textospag5{
+    width: 80vw;
+    margin-left: 10vw;
+    padding-top: 7vh;
+}
+#textospag5 p{
+    text-indent: 20px;
+}
+
+#textospag5 .textos5{
+    font-family: "Questrial", sans-serif;
+    text-indent: 20px;
+}
+
+#pagina5 img{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#pagina5 #ver{
+    color: red;
+}
+#pagina5 #ros{
+    color: pink;
+}
+#pagina5 #ama{
+    color: yellow;
+}
+#pagina5 #lar{
+    color: orange;
+}
+#pagina5 #verd{
+    color: green;
+}
+#pagina5 #azu{
+    color: blue;
+}
+#pagina5 #rox{
+    color: rgb(200, 0, 200);
+}
+#pagina5 #mar{
+    color: rgb(119, 4, 4);
+}
+#pagina5 #pre{
+    color: var(--cinza2);
+}
+#pagina5 #pra{
+    color: rgb(173, 158, 158);
+}
+#pagina5 #dou{
+    color: rgb(205, 135, 48);
+}

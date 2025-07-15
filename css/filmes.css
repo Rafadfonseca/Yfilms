@@ -1,0 +1,191 @@
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.shrikhand-regular {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 40vh;
+    background: #36393a;
+}
+header h1{
+    font-family: "Shrikhand", serif;
+    color: white;
+    font-size: 5vw;
+    padding-top: 4vh;
+    margin-left: 6vw;
+    letter-spacing: 5px;
+}
+.accordion{
+    font-family: "Questrial", sans-serif;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #36393a;
+}
+.accordion{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgb(0, 0, 0, 0, 2);
+}
+
+.accordion .capas{
+    width: 8vw;
+    margin: 10px 0;
+}
+.accordion .accordion-content{
+    margin: 10px 0;
+    border-radius: 25px;
+    background: none;
+    border: 2px solid #6a6a6a;
+    overflow: hidden;
+}
+/*/
+.accordion-content:nth-child(2){
+    background-color: #F0FAFF;
+    border-color: #CCEEFF;
+}
+
+.accordion-content:nth-child(3){
+    background-color: #fff0fb;
+    border-color: #ffccf7;
+}
+
+.accordion-content:nth-child(4){
+    background-color: #f0fff5;
+    border-color: #ccffd7;
+}
+/*/
+
+.accordion-content.open{
+    padding-bottom: 10px;
+}
+
+.accordion-content .header{
+    display: flex;
+    min-height: 50px;
+    padding: 0 15px;
+    transition: all 0.2s linear;
+}
+
+.accordion-content.open .header{
+    min-height: 35px;
+}
+.accordion-content .header .textheader{
+    width: 60vw;
+    margin-left: 1vw;
+    margin-top: 2.5vh;
+}
+
+.accordion-content .header .title{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    font-family: "Bree Serif", serif;
+}
+
+.accordion-content .header .sinop{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1vh;
+    color: white;
+}
+
+.accordion-content .header .flecha{
+    display: flex;
+    align-items: center;
+    margin-left: 8vw;
+    margin-right: 4vw;
+
+}
+
+.accordion-content .header i{
+    font-size: 45px;
+    color: white;
+}
+
+.descricao p{
+    color: white;
+    margin-left: 3vw;
+    font-size: 17px;
+    width: 60vw;
+}
+
+.accordion-content .description1 .description2{
+    height: 0;
+    color: white;
+    font-weight: 400;
+    padding: 0 15px;
+    transition: all 0.2s linear;
+}
+.accordion-content .descricao img{
+    width: 15vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.accordion-content .descricao .primeiraft{
+    margin-left: 7vw;
+}
+.accordion-content .firstp{
+    margin-left: 1vw;
+}
+.accordion-content .comentario h2{
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.accordion-content .comentario input{
+    margin-left: 5vw;
+    width: 40vw;
+    height: 5vh;
+    margin-bottom: 3vh;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+#placeholder-text::placeholder {
+    padding-left: 2vh;
+}
+
+.myButton {
+	background-color:transparent;
+	border-radius:28px;
+	border:2px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 20px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#6a6a6a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
