@@ -67,9 +67,9 @@
     margin-left: 10vw;
 }
 #pagina5 #primeiraft{
-    margin-left: 20vw;
+    margin-left: 15vw;
 }
-#pagina5 #pp{
+#pagina5 #segp{
     font-family: "Bree Serif", serif;
     font-size: 1.5vw;
     justify-content: center;
@@ -80,11 +80,13 @@
     font-family: "Questrial", sans-serif;
     font-size: 1.3vw;
     padding-top: 0.5vh;
-    margin-left: 10vw;
+    margin-left: 15vw;
+    justify-content: center;
 }
-#pagina5 #segundaft{
-    margin-right: 25vw;
-    margin-left: 5vw;
+#pagna5 #dafoto{
+    width:25vw;
+    margin-left: 15vw;
+    float: left;
 }
 
 
