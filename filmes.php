@@ -1,3 +1,18 @@
+<?php
+include_once './includes/conexao.php';
+$pagina = 'filmes';
+
+  $comentario = array(
+    'comentarioId' => '',
+    'comentario' => '',
+    'usuarioID' => ''
+  );
+
+if (!empty($_GET['id'])){
+  $result = mysqli_query($conn, "SELECT * FROM comentarios WHERE comentarioID = {$_GET['id']}");
+  $comentario = mysqli_fetch_assoc($result) ?: $comentario;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,8 +66,12 @@
 
                   <div class="comentario">
                       <h2>Você percebeu mais alguma coisa no filme?</h2>
-                      <input id="placeholder-text" type="text" placeholder="Escreva um comentário">
-                      <a href="filmes.php" class="myButton">enviar</a>
+                      <form action="./processa/processa-comentario.php" method="post">
+                        <input type="hidden" name="acao" value="salvar">
+                        <input type="hidden" name="id" value="<?php echo $comentarios['comentarioID']; ?>">
+                        <input id="placeholder-text" type="text" placeholder="Escreva um comentário" name="comentario" value="<?php echo $comentario['comentario']; ?>" required>
+                        <input type="submit" class="myButton" value="enviar"></input>
+                      </form>
 
                   </div>
               </div>
@@ -88,10 +107,15 @@
                   <img src="imgs/img/mkfoto2.png" alt="">
                   <img src="imgs/img/mkfoto3.png" alt="">
 
+                  
                   <div class="comentario">
                       <h2>Você percebeu mais alguma coisa no filme?</h2>
-                      <input id="placeholder-text" type="text" placeholder="Escreva um comentário">
-                      <a href="filmes.php" class="myButton">enviar</a>
+                      <form action="./processa/processa-comentario.php" method="post">
+                        <input type="hidden" name="acao" value="salvar">
+                        <input type="hidden" name="id" value="<?php echo $comentarios['comentarioID']; ?>">
+                        <input id="placeholder-text" type="text" placeholder="Escreva um comentário" name="comentario" value="<?php echo $comentario['comentario']; ?>" required>
+                        <input type="submit" class="myButton" value="enviar"></input>
+                      </form>
 
                   </div>
               </div>
@@ -125,10 +149,15 @@
                   <img src="imgs/img/apfoto2.png" alt="">
                   <img src="imgs/img/apfoto3.png" alt="">
 
+                  
                   <div class="comentario">
                       <h2>Você percebeu mais alguma coisa no filme?</h2>
-                      <input id="placeholder-text" type="text" placeholder="Escreva um comentário">
-                      <a href="filmes.php" class="myButton">enviar</a>
+                      <form action="./processa/processa-comentario.php" method="post">
+                        <input type="hidden" name="acao" value="salvar">
+                        <input type="hidden" name="id" value="<?php echo $comentarios['comentarioID']; ?>">
+                        <input id="placeholder-text" type="text" placeholder="Escreva um comentário" name="comentario" value="<?php echo $comentario['comentario']; ?>" required>
+                        <input type="submit" class="myButton" value="enviar"></input>
+                      </form>
 
                   </div>
               </div>
@@ -163,10 +192,15 @@
                   <img src="imgs/img/wfoto2.png" alt="">
                   <img src="imgs/img/wfoto3.png" alt="">
 
+                  
                   <div class="comentario">
                       <h2>Você percebeu mais alguma coisa no filme?</h2>
-                      <input id="placeholder-text" type="text" placeholder="Escreva um comentário">
-                      <a href="filmes.php" class="myButton">enviar</a>
+                      <form action="./processa/processa-comentario.php" method="post">
+                        <input type="hidden" name="acao" value="salvar">
+                        <input type="hidden" name="id" value="<?php echo $comentarios['comentarioID']; ?>">
+                        <input id="placeholder-text" type="text" placeholder="Escreva um comentário" name="comentario" value="<?php echo $comentario['comentario']; ?>" required>
+                        <input type="submit" class="myButton" value="enviar"></input>
+                      </form>
 
                   </div>
               </div>
@@ -204,10 +238,15 @@
                   <img src="imgs/img/hfoto2.png" alt="">
                   <img src="imgs/img/hfoto3.png" alt="">
 
+                  
                   <div class="comentario">
                       <h2>Você percebeu mais alguma coisa no filme?</h2>
-                      <input id="placeholder-text" type="text" placeholder="Escreva um comentário">
-                      <a href="filmes.php" class="myButton">enviar</a>
+                      <form action="./processa/processa-comentario.php" method="post">
+                        <input type="hidden" name="acao" value="salvar">
+                        <input type="hidden" name="id" value="<?php echo $comentarios['comentarioID']; ?>">
+                        <input id="placeholder-text" type="text" placeholder="Escreva um comentário" name="comentario" value="<?php echo $comentario['comentario']; ?>" required>
+                        <input type="submit" class="myButton" value="enviar"></input>
+                      </form>
 
                   </div>
               </div>
