@@ -134,7 +134,7 @@ ul li a img#img1{
     width: 100%;
     position: absolute;
     top: 100vh;
-    height: 400vh;
+    height: 450vh;
 }
 #pagina5 p, ul{
     text-align: justify;
@@ -156,10 +156,13 @@ ul li a img#img1{
     font-family: "Questrial", sans-serif;
     text-indent: 20px;
 }
-
-#pagina5 img{
+#prifto{
+    width:45vw;
+}
+img{
     margin-top: 5vh;
     margin-bottom: 5vh;
+    width: 65vw;
 }
 
 #pagina5 #ver{
