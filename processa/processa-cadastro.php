@@ -13,7 +13,7 @@ $nomeusuario = $_POST['nomeusuario'];
 $senha = $_POST['senha'];
 
 // INSERT INTO tabela (CAMPOS, CAMPOS) VALUES(VALORES,VALORES)
-$sql = "INSERT INTO usuarios (email, cpf, nomecompleto, datadenascimento, nomedeusuario, senha)
+$sql = "INSERT INTO usuarios (email, cpf, nomecompleto, datanascimento, nomeusuario, senha)
 VALUES('$email', $cpf, '$nomecompleto', '$datanascimento','$nomeusuario', '$senha')";
 $resultado = $conn->query($sql);
 header("location: ../login.php");
