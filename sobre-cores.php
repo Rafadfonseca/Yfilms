@@ -3,6 +3,7 @@ include_once './includes/conexao.php';
 $pagina = 'sobre-cores';
 include_once './includes/header.php';
 ?>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <main>
       <div id="pagina4">
         <div id="textospag4">

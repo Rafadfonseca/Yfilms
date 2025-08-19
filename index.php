@@ -57,7 +57,7 @@ include_once './includes/header.php';
         <h3>VEJA FILMES RECOMENDADOS</h3>
         <p class="textocard">Clique aqui para ver alguma recomendação de filmes que tem uma fotografia chamativa</p>
         <div class="flechinha">
-          <a target="_blank" href="...">
+          <a target="_blank" href="filmes.php">
             <img class="flecha" src="imgs/flechas.png" alt="Ir para" title="Ir para">
           </a>
         </div>
@@ -68,7 +68,7 @@ include_once './includes/header.php';
         <h3>ENTENDA COLORIMETRIA</h3>
         <p class="textocard">Clique aqui para ler um pouco sobre colorimetria e entender melhor sobre teoria de paletas de cores.</p>
         <div class="flechinha">
-          <a target="_blank" href="...">
+          <a target="_blank" href="sobre-cores.php">
             <img class="flecha" src="imgs/flechas.png" alt="Ir para" title="Ir para">
           </a>
         </div>
