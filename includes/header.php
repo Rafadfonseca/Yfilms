@@ -28,6 +28,7 @@
                 <li><a target="_blank" class="sec" href="./login.php">Login</a></li>
                 <li><a target="_blank" class="sec" href="./filmes.php">Filmes</a></li>
                 <li><a target="_blank" class="sec" href="./sobre-cores.php">Sobre cores</a></li>
+
               </ul>
             </li>
           </ul>

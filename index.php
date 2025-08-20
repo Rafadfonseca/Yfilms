@@ -12,7 +12,6 @@ include_once './includes/header.php';
         </div>
 
         <div id="caixas">
-
           <a target="_blank" href="./filmes.php"> 
             <div id="caixa11" class="caixa12">
               <p class="pdiv">FILMES</p>

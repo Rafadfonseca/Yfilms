@@ -25,7 +25,7 @@ include_once './includes/header.php';
           São obtidas pela mistura de duas cores primárias, como o verde (azul + amarelo), o laranja (amarelo + vermelho) e o roxo 
           (vermelho + azul). Cores Terciárias- Formadas pela mistura de uma cor primária com uma cor secundária. Exemplos: 
           amarelo-esverdeado, azul-arroxeado, vermelho-arroxeado, etc. </p>
-        <img src="imgs/class.cores.png" alt="">
+        <img id="prifto" src="imgs/class.cores.png" alt="">
         <p class="textos5"> Elas também podem ser divididas entre as cores quentes, frias e neutras. Onde cada uma traz uma sensação diferente e 
           são associadas a coisas diferentes, por exemplo alguns sentimentos que cada cor se identifica, segundo Eva Heller no livro 
           A psicologia das cores, de 2002:</p>
