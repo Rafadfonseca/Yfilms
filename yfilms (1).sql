@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 20/08/2025 às 14:05
+-- Tempo de geração: 20/08/2025 às 14:18
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -20,6 +20,24 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `yfilms`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `comentarios`
+--
+
+CREATE TABLE `comentarios` (
+  `comentarioID` int(11) NOT NULL,
+  `comentario` varchar(280) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Despejando dados para a tabela `comentarios`
+--
+
+INSERT INTO `comentarios` (`comentarioID`, `comentario`) VALUES
+(0, 'oi eu amei este filme');
 
 -- --------------------------------------------------------
 
@@ -42,7 +60,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`usuarioID`, `email`, `cpf`, `nomecompleto`, `datanascimento`, `nomeusuario`, `senha`) VALUES
-(0, 'camile.royer@gmail.com', 2147483647, 'Camile Royer', '2007-11-08', 'camileroyer', '08112007');
+(0, 'camile.royer@gmail.com', 2147483647, 'Camile Royer', '2007-11-08', 'camileroyer', '08112007'),
+(0, 'sandro@gmail.com', 22211133, 'SAndro Martins', '1990-09-17', 'eisandromc', '123456');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
