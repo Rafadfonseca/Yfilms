@@ -2,6 +2,8 @@
 include_once './includes/conexao.php';
 $pagina = 'login';
 include_once './includes/header-login.php';
+$cadastro = $_GET['cad'];
+
 ?>
 
 <body>

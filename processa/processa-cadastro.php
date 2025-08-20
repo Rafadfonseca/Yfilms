@@ -16,5 +16,5 @@ $senha = $_POST['senha'];
 $sql = "INSERT INTO usuarios (email, cpf, nomecompleto, datanascimento, nomeusuario, senha)
 VALUES('$email', $cpf, '$nomecompleto', '$datanascimento','$nomeusuario', '$senha')";
 $resultado = $conn->query($sql);
-header("location: ../login.php");
+header("location: ../login.php?cad=ok");
 ?>
