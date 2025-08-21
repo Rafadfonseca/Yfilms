@@ -1,10 +1,15 @@
 const accordionContent = document.querySelectorAll(".accordion-content");
+console.log(accordionContent);
+
 
 accordionContent.forEach((item, index ) => {
+    
+    let descClose = item.querySelector(".descricao");
+    descClose.style.height = '0px';
+
     let header = item.querySelector(".header");
     header.addEventListener("click", () =>{
         item.classList.toggle("open");
-
         let descricao = item.querySelector(".descricao");
         if(item.classList.contains("open")){
             descricao.style.height = `${descricao.scrollHeight}px`;

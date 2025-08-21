@@ -71,7 +71,7 @@ if (!empty($_GET['id'])){
                         <input type="hidden" name="acao" value="salvar">
                         <input type="hidden" name="id" value="<?php echo $comentarios['comentarioID']; ?>">
                         <input id="placeholder-text" type="text" placeholder="Escreva um comentário" name="comentario" value="<?php echo $comentario['comentario']; ?>" required>
-                        <input id="env" type="submit" class="myButton" value="enviar"></input>
+                        <input class="env" type="submit" class="myButton" value="enviar"></input>
                       </form>
 
                   </div>
@@ -115,7 +115,7 @@ if (!empty($_GET['id'])){
                         <input type="hidden" name="acao" value="salvar">
                         <input type="hidden" name="id" value="<?php echo $comentarios['comentarioID']; ?>">
                         <input id="placeholder-text" type="text" placeholder="Escreva um comentário" name="comentario" value="<?php echo $comentario['comentario']; ?>" required>
-                        <input type="submit" class="myButton" value="enviar"></input>
+                        <input  class="env"  type="submit" class="myButton" value="enviar"></input>
                       </form>
 
                   </div>
@@ -157,7 +157,7 @@ if (!empty($_GET['id'])){
                         <input type="hidden" name="acao" value="salvar">
                         <input type="hidden" name="id" value="<?php echo $comentarios['comentarioID']; ?>">
                         <input id="placeholder-text" type="text" placeholder="Escreva um comentário" name="comentario" value="<?php echo $comentario['comentario']; ?>" required>
-                        <input type="submit" class="myButton" value="enviar"></input>
+                        <input class="env"  type="submit" class="myButton" value="enviar"></input>
                       </form>
 
                   </div>
@@ -200,7 +200,7 @@ if (!empty($_GET['id'])){
                         <input type="hidden" name="acao" value="salvar">
                         <input type="hidden" name="id" value="<?php echo $comentarios['comentarioID']; ?>">
                         <input id="placeholder-text" type="text" placeholder="Escreva um comentário" name="comentario" value="<?php echo $comentario['comentario']; ?>" required>
-                        <input type="submit" class="myButton" value="enviar"></input>
+                        <input class="env"  type="submit" class="myButton" value="enviar"></input>
                       </form>
 
                   </div>
@@ -246,7 +246,7 @@ if (!empty($_GET['id'])){
                         <input type="hidden" name="acao" value="salvar">
                         <input type="hidden" name="id" value="<?php echo $comentarios['comentarioID']; ?>">
                         <input id="placeholder-text" type="text" placeholder="Escreva um comentário" name="comentario" value="<?php echo $comentario['comentario']; ?>" required>
-                        <input type="submit" class="myButton" value="enviar"></input>
+                        <input class="env"  type="submit" class="myButton" value="enviar"></input>
                       </form>
 
                   </div>
