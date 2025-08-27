@@ -168,12 +168,12 @@ main{
     font-family: "Questrial", sans-serif;
 }
 
-
 input::placeholder, input, input:hover {
-  font-weight: bold;
-  opacity: 0.5;
-  color: white;
+    font-weight: bold;
+    opacity: 0.5;
+    color: white;
 }
+
 
 .comentario .env{
     margin-left: 1vw;
