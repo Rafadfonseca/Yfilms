@@ -172,7 +172,7 @@ main{
 input::placeholder, input, input:hover {
   font-weight: bold;
   opacity: 0.5;
-  color: red;
+  color: white;
 }
 
 .comentario .env{
